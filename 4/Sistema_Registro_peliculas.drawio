@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="3FfYzWEjGqQr9u7x8DBr">
+    <mxGraphModel dx="1030" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hYWJB1VdmA_ULkHyZR4d-7" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF8000);" value="&lt;span style=&quot;color: rgb(232, 230, 227); font-family: anthropic-sans, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 14px; font-weight: 500; text-align: start; white-space: nowrap;&quot;&gt;Pelicula&lt;/span&gt;" vertex="1">
+          <mxGeometry height="200" width="220" x="80" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="hYWJB1VdmA_ULkHyZR4d-8" parent="hYWJB1VdmA_ULkHyZR4d-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: anthropic-sans, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; white-space: nowrap;&quot;&gt;- String titulo&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: anthropic-sans, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; white-space: nowrap;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: anthropic-sans, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; white-space: nowrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;String genero&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: anthropic-sans, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; white-space: nowrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: anthropic-sans, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; white-space: nowrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;int duracion&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: anthropic-sans, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; white-space: nowrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: anthropic-sans, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; white-space: nowrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;String clasificacion&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: anthropic-sans, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; white-space: nowrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: anthropic-sans, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; white-space: nowrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;float calificaciones&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: anthropic-sans, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; white-space: nowrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: anthropic-sans, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; white-space: nowrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;static int totalPeliculas&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="114" width="220" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hYWJB1VdmA_ULkHyZR4d-9" parent="hYWJB1VdmA_ULkHyZR4d-7" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="220" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="hYWJB1VdmA_ULkHyZR4d-10" parent="hYWJB1VdmA_ULkHyZR4d-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+&amp;nbsp;&lt;span style=&quot;font-family: anthropic-sans, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; white-space: nowrap;&quot;&gt;Pelicula(titulo, genero, dur, clas)&lt;/span&gt;&lt;div&gt;&lt;font face=&quot;anthropic-sans, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: anthropic-sans, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; white-space: nowrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;calcularPromedio(): float&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="52" width="220" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="hYWJB1VdmA_ULkHyZR4d-11" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF8000);" value="&lt;span style=&quot;font-family: anthropic-sans, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 14px; font-weight: 500; text-align: start; white-space: nowrap;&quot;&gt;ControladorPelicula&lt;/span&gt;" vertex="1">
+          <mxGeometry height="86" width="180" x="490" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="hYWJB1VdmA_ULkHyZR4d-12" parent="hYWJB1VdmA_ULkHyZR4d-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="-&amp;nbsp;&lt;span style=&quot;font-family: anthropic-sans, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; white-space: nowrap;&quot;&gt;Pelicula peliculas&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hYWJB1VdmA_ULkHyZR4d-13" parent="hYWJB1VdmA_ULkHyZR4d-11" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="180" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="hYWJB1VdmA_ULkHyZR4d-14" parent="hYWJB1VdmA_ULkHyZR4d-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+&amp;nbsp;&lt;span style=&quot;font-family: anthropic-sans, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; white-space: nowrap;&quot;&gt;&amp;nbsp;registrarPelicula(...): Pelicula&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="180" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hYWJB1VdmA_ULkHyZR4d-15" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FF8000,#FF8000);" value="&lt;span style=&quot;font-family: anthropic-sans, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 14px; font-weight: 500; text-align: start; white-space: nowrap;&quot;&gt;VistaPelicula&lt;/span&gt;" vertex="1">
+          <mxGeometry height="106" width="210" x="475" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hYWJB1VdmA_ULkHyZR4d-17" parent="hYWJB1VdmA_ULkHyZR4d-15" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="40" width="210" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hYWJB1VdmA_ULkHyZR4d-18" parent="hYWJB1VdmA_ULkHyZR4d-15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+&amp;nbsp;&lt;span style=&quot;font-family: anthropic-sans, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; white-space: nowrap;&quot;&gt;&amp;nbsp;mostrarPeliculas(peliculas[])&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="210" y="66" as="geometry" />
+        </mxCell>
+        <mxCell id="hYWJB1VdmA_ULkHyZR4d-20" edge="1" parent="1" source="hYWJB1VdmA_ULkHyZR4d-11" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" target="hYWJB1VdmA_ULkHyZR4d-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="340" as="sourcePoint" />
+            <mxPoint x="440" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hYWJB1VdmA_ULkHyZR4d-21" edge="1" parent="1" source="hYWJB1VdmA_ULkHyZR4d-18" style="endArrow=classic;html=1;rounded=0;entryX=0.984;entryY=0.101;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="hYWJB1VdmA_ULkHyZR4d-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="340" as="sourcePoint" />
+            <mxPoint x="440" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
