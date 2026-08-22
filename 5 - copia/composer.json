@@ -1,0 +1,15 @@
+{
+    "name": "user/5-copia",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "LauraC1600",
+            "email": "lauracristina3116@gmail.com"
+        }
+    ],
+    "require": {}
+}
