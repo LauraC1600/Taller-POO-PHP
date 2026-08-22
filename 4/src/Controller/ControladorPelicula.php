@@ -1,6 +1,8 @@
 <?php
 
-require_once __DIR__ . '/../model/Pelicula.php';
+namespace Controller;
+
+use Model\Pelicula;
 
 class ControladorPelicula
 {

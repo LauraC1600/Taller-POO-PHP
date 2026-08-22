@@ -1,11 +1,14 @@
 <?php
 
-require_once __DIR__ . '/../model/Estudiante.php';
-require_once __DIR__ . '/../model/Docente.php';
-require_once __DIR__ . '/../model/Administrativo.php';
-require_once __DIR__ . '/../model/Curso.php';
+namespace Controller;
 
-class ControladorPlataforma
+use Model\Estudiante;
+use Model\Docente;
+use Model\Administrativo;
+use Model\Curso;
+use Model\Persona;
+
+class ControladorPersona
 {
     private array $estudiantes     = [];
     private array $docentes        = [];

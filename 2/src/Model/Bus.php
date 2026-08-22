@@ -1,4 +1,7 @@
- <?php
+<?php
+
+namespace Model;
+
 
 class Bus
 {

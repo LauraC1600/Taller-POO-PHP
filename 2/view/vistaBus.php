@@ -1,5 +1,7 @@
 <?php
 
+use Model\Bus;
+
 function mostrarFormularioBus()
 {
     echo "<!DOCTYPE html>

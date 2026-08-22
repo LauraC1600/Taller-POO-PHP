@@ -1,8 +1,11 @@
 <?php
 
-require_once __DIR__ . '/../model/Banco.php';
-require_once __DIR__ . '/../model/Persona.php';
-require_once __DIR__ . '/../model/Empresa.php';
+namespace Controller;
+
+use Model\Banco;
+use Model\Persona;
+use Model\Empresa;
+
 
 class ControladorBanco
 {

@@ -1,5 +1,7 @@
 <?php
 
+namespace Model;
+
 class Pelicula
 {
     private string $titulo;

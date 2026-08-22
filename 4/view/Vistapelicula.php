@@ -1,5 +1,7 @@
 <?php
 
+use Model\Pelicula;
+
 function mostrarFormulario($cantidad)
 {
     echo "<!DOCTYPE html>

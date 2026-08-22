@@ -1,7 +1,14 @@
 <?php
 
-require_once __DIR__ . '/controller/Controladorpersona.php';
-require_once __DIR__ . '/view/vistapersona.php';
+use Controller\ControladorPersona;
+
+spl_autoload_register(function(string $class){
+    $path = str_replace("\\", "/", $class) . '.php';
+    $path = __DIR__ . '/src/' . $path;
+    require $path;
+});
+
+require_once __DIR__ . '/view/vistaPersona.php';
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     mostrarFormularioCantidades();
@@ -22,7 +29,7 @@ if ($_POST['paso'] === 'datos') {
     $numDoc = (int)$_POST['num_docentes'];
     $numAdm = (int)$_POST['num_administrativos'];
 
-    $controlador = new ControladorPlataforma();
+    $controlador = new ControladorPersona();
 
     for ($i = 0; $i < $numDoc; $i++) {
         $nombre    = trim($_POST["doc_nombre_{$i}"]); // trim Elimina los espacios en blanco al inicio y al final de un string.

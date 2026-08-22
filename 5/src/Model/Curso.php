@@ -1,7 +1,9 @@
 <?php
 
-require_once __DIR__ . '/Docente.php';
-require_once __DIR__ . '/Estudiante.php';
+namespace Model;
+
+use Model\Docente;
+use Model\Estudiante;
 
 class Curso
 {

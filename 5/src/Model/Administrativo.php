@@ -1,6 +1,8 @@
 <?php
 
-require_once __DIR__ . '/Persona.php';
+namespace Model;
+
+use Model\Persona;
 
 class Administrativo extends Persona
 {

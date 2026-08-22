@@ -1,7 +1,14 @@
 <?php
 
-require_once __DIR__ . '/controller/ControladorBus.php';
-require_once __DIR__ . '/view/vistaBus.php';
+use Controller\ControladorBus;
+
+spl_autoload_register(function (string $class) {
+    $path = str_replace("\\", "/", $class) . '.php';
+    $path = 'src/' . $path;
+    require $path;
+});
+
+require_once __DIR__ . '/View/VistaBus.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
@@ -19,7 +26,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $mensajeBajar = $bus->bajarPasajeros($bajar);
 
     mostrarResultadoBus($bus, $mensajeSubir, $mensajeBajar);
-
 } else {
     mostrarFormularioBus();
 }

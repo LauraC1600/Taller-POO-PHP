@@ -1,6 +1,8 @@
 <?php
 
-require_once __DIR__ . '/Cliente.php';
+namespace Model;
+
+use Model\Cliente;
 
 class Persona extends Cliente
 {
