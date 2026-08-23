@@ -3,11 +3,11 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 use Controller\ControladorPersona;
 
-spl_autoload_register(function (string $class) {
-    $path = str_replace("\\", "/", $class) . '.php';
-    $path = __DIR__ . '/src/' . $path;
-    require $path;
-});
+// spl_autoload_register(function (string $class) {
+//     $path = str_replace("\\", "/", $class) . '.php';
+//     $path = __DIR__ . '/src/' . $path;
+//     require $path;
+// });
 
 require_once __DIR__ . '/view/vistaPersona.php';
 
